@@ -1,0 +1,116 @@
+/* Yleiset tyylit */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Taustakuvat eri sivuille */
+body.index {
+    background-image: url('istockphoto-1746080525-1024x1024.jpg');
+}
+
+body.about {
+    background-image: url('istockphoto-1482368593-1024x1024.jpg');
+}
+
+body.skills {
+    background-image: url('istockphoto-1746010055-1024x1024.jpg');
+}
+
+body.contact {
+    background-color: #2975A7;
+}
+
+body.projects {
+    background-color: #778D45;
+}
+
+/* Header ja navigointi keskitettynä */
+header {
+    text-align: center; 
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 1200px; 
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+    justify-content: center; 
+    padding: 10px 0;
+    list-style: none;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline; 
+}
+
+/* Otsikot */
+h1, h2, h3 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+}
+
+h1 {
+    text-align: center; 
+}
+
+/* Tekstin tyyli */
+main {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    text-align: left; 
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px;
+}
+
+/* Artikkelit */
+article {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6); 
+    border-radius: 10px;
+    max-width: 1000px; 
+    text-align: left; 
+}
+
+/* Power BI -raportit */
+iframe {
+    margin: 20px auto; 
+    display: block;
+    width: 95%; 
+    max-width: 1000px; 
+    height: 600px; 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    font-size: 12px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
